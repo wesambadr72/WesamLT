@@ -107,6 +107,34 @@ body {
     font-size: 18px;
     opacity: 0.6;
 }
+#linkcr{
+    margin-bottom: 5px;
+}
+#teleicon{
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+#xicon{
+    color: #FFFFFF;
+}
+#githubicon{
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+#igicon{
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+#linkedinicon{
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+#cricon{
+    height: 29px;
+    width: 29px;
+    margin: auto;
+    padding: 0;
+}
 @keyframes gradientAnimation {
     0% {
         background-position: 35% 70%;
@@ -124,11 +152,14 @@ body {
         margin: 0;
         padding: 0;
         height: 100vh;
-        background: linear-gradient( to bottom,#FFFFFF, #1B1717 90%);
-        background-size: 100% 200%;
-        animation: gradientAnimation 5s ease-in-out infinite;
+        width: 100vw;
+        background: linear-gradient(to bottom, #FFFFFF, #1B1717 90%);
+        background-size: 100% 100%;
+        animation: none;
         background-repeat: no-repeat;
+        overflow: auto;
     }
+}
     @keyframes gradientAnimation {
         0% {
             background-position: 35% 70%;
@@ -140,5 +171,3 @@ body {
             background-position: 35% 70%;
         }
     }
-    
-}
