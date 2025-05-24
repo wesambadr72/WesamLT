@@ -34,10 +34,7 @@ body {
     top: 8%;
     left: 12%;
     rotate:-45deg;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 0px;
+    border-radius: 0px 60px;
     z-index: 1;
     pointer-events: none;
 }
